@@ -1,0 +1,11 @@
+.nav-link {
+  font-weight: 500;
+  color: #666 !important;
+  transition: var(--transition);
+}
+
+.nav-link:hover, .nav-link.active {
+  color: var(--primary-color) !important;
+}
+
+.navbar-brand .logo-e { color: var(--accent-color) !important; }

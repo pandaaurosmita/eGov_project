@@ -1,0 +1,60 @@
+.hero {
+  position: relative;
+  background: radial-gradient(circle at top right, rgba(0, 188, 212, 0.05), transparent),
+              radial-gradient(circle at bottom left, rgba(0, 77, 153, 0.05), transparent);
+  overflow-x: hidden;
+}
+
+.hero .display-3 {
+  max-width: 95%;
+  line-height: 1.1;
+}
+
+.blob-bg {
+  background: var(--secondary-color);
+  filter: blur(80px);
+  border-radius: 50%;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.hero .card {
+  animation: float 4s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+.hero .card:hover {
+  transform: scale(1.05) !important;
+}
+
+@media (max-width: 1200px) {
+  .hero .display-3 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero {
+    text-align: center;
+  }
+  .hero .display-3 {
+    max-width: 100%;
+  }
+  .hero .lead {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero .d-flex {
+    justify-content: center;
+  }
+  .hero .card {
+    position: static !important;
+    display: inline-block !important;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    animation: none;
+  }
+}

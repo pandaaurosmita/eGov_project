@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "DIGIT Platform",
+    "description": "An open-source technology-for-good platform designed for digital transformation.",
+    "price": "Free",
+    "category": "Products",
+    "image": "assets/prod1.png",
+    "tags": ["Open Source", "Platform", "Digital"]
+  },
+  {
+    "id": 2,
+    "name": "Smart Governance Suite",
+    "description": "A comprehensive tool for urban efficiency and citizen engagement.",
+    "price": "$499/mo",
+    "category": "Initiatives",
+    "image": "assets/prod2.png",
+    "tags": ["Smart City", "Governance", "Efficient"]
+  },
+  {
+    "id": 3,
+    "name": "Community Connect",
+    "description": "Empowering diverse communities through digital inclusion and connectivity.",
+    "price": "$199/mo",
+    "category": "Case Studies",
+    "image": "assets/prod3.png",
+    "tags": ["Community", "Social Impact", "Connectivity"]
+  },
+  {
+    "id": 4,
+    "name": "Global Welfare Initiative",
+    "description": "Sustainable change and social welfare across global landscapes.",
+    "price": "Donation Based",
+    "category": "Reports",
+    "image": "assets/prod4.png",
+    "tags": ["Global", "Welfare", "Sustainability"]
+  },
+  {
+    "id": 5,
+    "name": "E-Gov News Weekly",
+    "description": "Latest updates and insights on digital transformation in public service.",
+    "price": "Free",
+    "category": "News",
+    "image": "assets/prod1.png",
+    "tags": ["News", "Weekly", "Insights"]
+  },
+  {
+    "id": 6,
+    "name": "Digital Transformation Podcast",
+    "description": "Experts discussing the future of digital governance and social impact.",
+    "price": "Free",
+    "category": "Podcasts",
+    "image": "assets/prod2.png",
+    "tags": ["Podcast", "Expert", "Future"]
+  },
+  {
+    "id": 7,
+    "name": "Urban Innovation Blog",
+    "description": "Exploring new ideas and technologies for modern urban challenges.",
+    "price": "Free",
+    "category": "Blogs",
+    "image": "assets/prod3.png",
+    "tags": ["Blog", "Innovation", "Urban"]
+  }
+]

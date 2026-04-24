@@ -1,0 +1,7 @@
+.app-wrapper {
+  overflow-x: hidden;
+}
+
+main {
+  min-height: 100vh;
+}
